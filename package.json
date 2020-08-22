@@ -1,14 +1,34 @@
 {
-  "name": "sanitize",
+  "name": "@haileybot/sanitize-role-mentions",
   "version": "1.0.0",
-  "description": "",
+  "description": "An NPM package to improve the way discord.js handles sending messages with role mentions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaileyBot/sanitize-role-mentions.git"
+  },
+  "author": "cheesits456",
+  "license": "AGPL-3.0",
   "dependencies": {
     "discord.js": "^12.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/HaileyBot/sanitize-role-mentions/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://donate.haileybot.com"
+  },
+  "homepage": "https://github.com/HaileyBot/sanitize-role-mentions#readme",
+  "keywords": [
+    "sanitize",
+    "discord.js",
+    "djs",
+    "roles",
+    "mentions",
+    "patch"
+  ]
 }

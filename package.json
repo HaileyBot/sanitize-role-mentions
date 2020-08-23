@@ -12,6 +12,9 @@
   },
   "author": "cheesits456",
   "license": "AGPL-3.0",
+  "engines": {
+    "node" : ">=14.0.0"
+  },
   "dependencies": {
     "discord.js": "^12.0.0"
   },

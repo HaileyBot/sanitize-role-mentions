@@ -32,6 +32,7 @@
     "djs",
     "roles",
     "mentions",
-    "patch"
+    "patch",
+    "plugin"
   ]
 }

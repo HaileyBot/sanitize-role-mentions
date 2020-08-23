@@ -33,7 +33,7 @@ npm i @haileybot/sanitize-role-mentions
 // Require the package and use "()" to run the function it contains
 require("@haileybot/sanitize-role-mentions")();
 
-// Set up your client
+// Set the client option "disableMentions" to "everyone"
 const client = require("discord.js").Client({
   disableMentions: "everyone"
 })

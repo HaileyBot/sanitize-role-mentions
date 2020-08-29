@@ -34,9 +34,10 @@ npm i @haileybot/sanitize-role-mentions
 require("@haileybot/sanitize-role-mentions")();
 
 // Set the client option "disableMentions" to "everyone"
-const client = require("discord.js").Client({
-  disableMentions: "everyone"
-})
+const { Client } = require("discord.js");
+const client = new Client({
+	disableMentions: "everyone"
+});
 
 // Put the rest of your bot code as-is, no changes necessary
 ```

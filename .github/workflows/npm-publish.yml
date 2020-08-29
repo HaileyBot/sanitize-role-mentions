@@ -6,6 +6,7 @@ name: Node.js Package
 on:
   release:
     types: [created]
+  workflow_dispatch:
 
 jobs:
   publish-npm:
@@ -16,6 +17,8 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
+      - run: npm i --only=dev
+      - run: tsc
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.PUBLISH_TOKEN_NPM}}
@@ -29,6 +32,8 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
           scope: '@HaileyBot'
+      - run: npm i --only=dev
+      - run: tsc
       - run: echo registry=https://npm.pkg.github.com/HaileyBot >> .npmrc
       - run: npm publish
         env:

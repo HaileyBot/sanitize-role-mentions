@@ -5,6 +5,10 @@
 [![PayPal](https://img.shields.io/badge/donate-paypal-13e)](https://donate.haileybot.com)
 [![Portfolio](https://img.shields.io/badge/-view%20portfolio-blueviolet)](https://cheesits456.dev)
 
+# ⚠️ Deprecated
+
+Due to updates to discord.js, this package is no longer necessary and should no longer be used.
+
 # Sanitize Role Mentions
 
 Sanitize Role Mentions is a Node library to improve the way discord.js handles sending messages with role mentions.

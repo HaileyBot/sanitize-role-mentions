@@ -1,6 +1,6 @@
 {
 	"name": "@haileybot/sanitize-role-mentions",
-	"version": "1.2.3",
+	"version": "1.2.4",
 	"description": "An NPM package to improve the way discord.js handles sending messages with role mentions",
 	"main": "dist/index.js",
 	"scripts": {
